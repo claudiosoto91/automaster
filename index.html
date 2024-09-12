@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="estilos.css">
+  <title>AutoMaster</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><span>Auto</span>Master</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#testimonial">Testimoniales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" data-bs-ride="carousel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__fadeInUp" style="animation-delay: 1s;">Mantenimiento<span> Preventivo</span></h5>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 2s;">Prolonga la vida útil de tu vehículo con nuestros servicios de mantenimiento preventivo. Cambios de aceite, revisiones y mucho más para asegurar tu seguridad en el camino.</p>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s;"><a href="#">Ver Servicios</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__fadeInDown" style="animation-delay: 1s;">Reparaciones <span>Especializadas</span>
+          </h5>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 2s;">¿Problemas con tu motor, frenos o sistema eléctrico? Nuestros expertos solucionan cualquier desperfecto con tecnología de punta y garantía de calidad.</p>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s;"><a href="#">Solicitar Turno</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__fadeInDown" style="animation-delay: 1s;">Diagnóstico <span>Avanzado</span></h5>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 2s;">Utilizamos las herramientas más avanzadas para diagnosticar cualquier fallo en tu vehículo. ¡Detecta y resuelve problemas antes de que se agraven!</p>
+          <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s;"><a href="#">Leer Más</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="about-area py-5" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div data-aos="flip-up" class="img-area">
+            <img src="img/about.jpg" alt="imagen about">
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="about-text">
+            <h2>Conocé más sobre nuestro <span>Compromiso</span></h2>
+            <p>En AutoMaster, nos dedicamos a ofrecer soluciones rápidas, eficientes y de alta calidad para todos los vehículos. Con más de 10 años de experiencia en el sector, nuestro equipo de mecánicos certificados trabaja con precisión para garantizar que tu auto esté siempre en las mejores condiciones. Ya sea mantenimiento, reparaciones o diagnósticos avanzados, puedes contar con nosotros para mantenerte en movimiento de manera segura.</p>
+            <a href="#" class="btn">Reservar Turno</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="services" class="services py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center">
+            <h2>Nuestros <span>Servicios</span></h2>
+            <p>Mantené tu vehículo en perfectas condiciones</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div data-aos="flip-left" class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <div class="single-services text-center">
+            <i class="bi bi-car-front"></i>
+            <h2>Mantenimiento <br> General</h2>
+            <p>Realizamos cambios de aceite, filtros y revisiones completas para que tu auto funcione de manera óptima y prevengas problemas futuros.</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <div class="single-services text-center">
+            <i class="bi bi-wrench-adjustable"></i>
+            <h2>Reparación de <br> Motor</h2>
+            <p>Solucionamos cualquier avería en el motor, desde ajustes hasta reparaciones mayores, con el uso de tecnología avanzada y piezas de calidad.</p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="col-lg-3 col-md-6 col-sm-6 mb-3">
+          <div class="single-services text-center">
+            <i class="bi bi-gear"></i>
+            <h2>Diagnóstico <br> Computarizado</h2>
+            <p>Utilizamos equipos de diagnóstico de última generación para identificar y corregir cualquier problema en tu vehículo.</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-lg-3 col-md-6 col-sm-6">
+          <div class="single-services text-center">
+            <i class="bi bi-tools"></i>
+            <h2>Servicios de <br> Frenos</h2>
+            <p>Inspeccionamos y reemplazamos los frenos para garantizar tu seguridad. Un sistema de frenos en buen estado es clave</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="choose" class="choose py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="seccion-header text-center">
+            <h2>Porque <span> Elegirnos</span></h2>
+            <p>Soluciones que se adaptan a tus necesidades</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="choose-area text-center">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single-box">
+                  <i class="bi bi-car-front"></i>
+                  <h2>Experiencia Comprobada</h2>
+                  <p>Más de 10 años en el rubro</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single-box">
+                  <i class="bi bi-wrench-adjustable"></i>
+                  <h2>Técnicos Certificados</h2>
+                  <p>Equipo capacitado y certificado</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single-box">
+                  <i class="bi bi-gear"></i>
+                  <h2>Tecnología Avanzada</h2>
+                  <p>Herramientas y equipos avanzados</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single-box">
+                  <i class="bi bi-tools"></i>
+                  <h2>Servicio Personalizado</h2>
+                  <p>Nos preocupamos por cada cliente</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-sm-12">
+          <div data-aos="flip-down" class="choose-img">
+            <img src="img/about.jpg" alt="imagen choose">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="py-5" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center">
+            <h2>Nuestros <span>Clientes</span></h2>
+            <p>Opiniones de quienes confian en nosotros</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 mb-3">
+          <div class="single-client text-center">
+            <div class="imgBox">
+              <img src="img/1.png" alt="img persona">
+            </div>
+            <h2>Verónica Perez</h2>
+            <p><i>"Excelente servicio, llevé mi auto para una revisión general y quedé muy satisfecha. El equipo es muy profesional y me explicaron todo el proceso."</i></p>
+            <h5>Fiat Palio <br> <span>23 de Julio</span></h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-3">
+          <div class="single-client text-center">
+            <div class="imgBox">
+              <img src="img/2.png" alt="img persona">
+            </div>
+            <h2>Flavia Díaz</h2>
+            <p><i>"Tuve un problema con los frenos de mi auto y lo solucionaron en tiempo récord. La atención fue increíble y los precios excelentes. "</i></p>
+            <h5>Honda Civic <br> <span>9 de Agosto</span></h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="single-client text-center">
+            <div class="imgBox">
+              <img src="img/4.png" alt="img persona">
+            </div>
+            <h2>Andréz Gómez</h2>
+            <p><i>"El diagnóstico que hicieron en mi auto fue súper preciso. Me explicaron cada detalle antes de hacer las reparaciones, lo que me dio mucha tranquilidad."</i></p>
+            <h5>Renault Sandero <br> <span>2 de Septiembre</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center">
+            <h2>¿Cómo y donde  <span>Ubicarnos</span>?</h2>
+            <p>Contamos con diferentes medios para que te comuniques</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-sm-12">
+          <div class="left-contact">
+            <h3>Ubicación:</h3>
+            <p>San Juan 1200 San Miguel de<br> Tucumán</p>
+            <h3>Email:</h3>
+            <p>automaster2024@gmail.com</p>
+            <h3>WhatsApp:</h3>
+            <p>381 - 2222222</p>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 col-sm-12">
+          <form>
+            <label>Nombre y Apellido</label>
+            <input type="text" class="form-control" id="fname" placeholder="Nombre y Apellido" required>
+            <label>Email</label>
+            <input type="email" class="form-control" id="femail" placeholder="Email" required>
+            <label>Mensaje</label>
+            <textarea class="form-control" placeholder="Contamos sobre tu problema y te responderemos a la brevedad"></textarea>
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-content text-center">
+            <p>Todos los Derechos Reservados</p>
+            <p class="socials">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-pinterest"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-linkedin"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
